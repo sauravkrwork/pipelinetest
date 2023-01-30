@@ -17,5 +17,10 @@ pipeline {
                 echo 'After Editing Deploying....'
             }
         }
+          stage('Prod') {
+            steps {
+                echo 'After Editing Prod.. manulaly added....'
+            }
+        }
     }
 }
