@@ -19,7 +19,7 @@ pipeline {
         }
           stage('Prod') {
             steps {
-                echo 'After Editing Prod.. manulaly added....'
+                echo 'After Editing Prod.. manulaly added.... and SCM Test'
             }
         }
        
